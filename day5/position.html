@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+
+    <style>
+      .parent {
+        height: 400vh;
+        background-color: red;
+        color: #fff;
+        position: relative;
+        position: relative;
+        padding-top: 100px;
+      }
+      .child-one {
+        height: 100px;
+        background-color: green;
+        position: fixed;
+
+        right: 0;
+        top: 0;
+        height: 400vh;
+        width: 200px;
+
+        z-index: 1;
+      }
+      .child-two {
+        height: 100px;
+        background-color: blue;
+
+        position: sticky;
+        bottom: 0;
+        top: 0;
+      }
+      .child-three {
+        height: 100px;
+        background-color: steelblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="parent">
+        Parent
+        <div class="child-one">First Child</div>
+        <div class="child-two">Second Child</div>
+        <div class="child-three">Third Child</div>
+
+    </div> -->
+
+    <div class="parent">
+      Parent
+      <div class="child-one">First Child</div>
+      <div class="child-two">Second Child</div>
+      <div class="child-three">Third Child</div>
+    </div>
+
+    <div class="parent">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus illo
+      assumenda, corrupti vero facilis fugit expedita deleniti sunt voluptatum
+      quo dolorem est porro quia dolore velit ut quibusdam numquam dolorum vel,
+      consectetur enim. Veniam!
+    </div>
+  </body>
+</html>

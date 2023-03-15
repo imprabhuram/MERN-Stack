@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Popins", sans-serif;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        color: #8a8a8a;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li {
+        padding: 0 10px;
+      }
+
+      nav ul a {
+        text-decoration: none;
+        color: #262626;
+        font-size: 14px;
+      }
+      nav ul a:hover {
+        text-decoration: underline;
+        color: red;
+      }
+
+      .div-wrapper {
+        height: 300px;
+        background-color: #eeeeee;
+        position: relative;
+        margin-top: 30px;
+        display: flex;
+        flex: 1;
+      }
+      .info {
+        flex: 0.7;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 0 60px;
+      }
+      .info h1 {
+        font-size: 42px;
+        font-weight: 300;
+      }
+
+      .stats {
+        flex: 0.5;
+
+        position: relative;
+        right: 0;
+        top: 0;
+        display: flex;
+      }
+
+      .stats-data h2 {
+        display: inline-block;
+        border: 2px solid;
+        background-color: red;
+
+        /* position: absolute; */
+        /* left: 0;
+        top: 0; */
+      }
+
+      /* .stats-data,
+      p {
+      
+      } */
+
+      .information {
+        background-color: #2a3038;
+        width: 200px;
+        height: 80px;
+        position: absolute;
+        right: 0;
+        bottom: -50px;
+        padding: 10px;
+      }
+      .information p {
+        font-size: 10px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Umprut Studio</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="work.html">Our Works</a>
+          </li>
+          <li>
+            <a href="aboutus.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="getintouch.html">Get in Touch</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="div-wrapper">
+        <div class="info">
+          <h1>We Doing Magic By Turning Visitor Into Potential Client</h1>
+        </div>
+        <div class="stats">
+          <div class="stats-data">
+            <h2>8+</h2>
+            <!-- <p>Years</p> -->
+
+            <h2>271+</h2>
+            <!-- <p>Projects</p> -->
+
+            <h2>95+</h2>
+            <!-- <p>Clients</p> -->
+
+            <h2>38</h2>
+            <!-- <p>Experts</p> -->
+          </div>
+        </div>
+        <!-- <div class="information">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+          </p>
+        </div> -->
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+@media screen and (max-width: 375px) {
+    h1{
+        color: red;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 575px) {
+    h1{
+        color: rgb(246, 255, 0);
+        font-size: 14px;
+    }
+}
+@media print{
+    h1{
+        color: red;
+        font-size: 14px;
+    }
+}
